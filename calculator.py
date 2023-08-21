@@ -60,3 +60,12 @@ def divide (a, b):
         print("One of the parameters is not on a valid numerical format...")
     else:
         return a / b
+
+"""
+# Divide function tests:
+print(divide(5, 1)) # Should return 5.0
+print(divide(20, 1.0)) # Should return 20.0
+print(divide(4, 'a')) # Should launch an error
+print(divide(4, False)) # Should return a float division error
+print(divide(4, True)) # Should return 4.0
+"""
