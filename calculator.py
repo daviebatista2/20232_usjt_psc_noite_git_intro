@@ -42,3 +42,21 @@ def multiply (a, b):
         print("One of the parameters is not on a valid numerical format...")
     else:
         return a * b
+
+"""
+# Multiplication function tests:
+print(multiply(5, 4)) # Should return 20.0
+print(multiply(4.5, 5)) # Should return 22.5
+print(multiply(4, 'a')) # Should launch an error
+print(multiply(4, False)) # Should return 0.0
+print(multiply(4, True)) # Should return 4.0
+"""
+
+def divide (a, b):
+    a = float(a)
+    b = float(b)
+
+    if (type(a) != float or type(b) != float):
+        print("One of the parameters is not on a valid numerical format...")
+    else:
+        return a / b
